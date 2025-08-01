@@ -39,7 +39,7 @@ This project demonstrates a Retrieval-Augmented Generation (RAG) system that all
 
 <pre lang="markdown"> ```
   rag-pdf-qa/ 
-  ├── test.ipynb # Jupyter Notebook demo for the pipeline 
+  ├── main.ipynb # Jupyter Notebook demo for the pipeline 
   ├── requirements.txt # Project dependencies 
   ├── .env # API key file (excluded from version control) 
   ├── README.md # Project documentation ``` </pre>
@@ -63,4 +63,4 @@ This project demonstrates a Retrieval-Augmented Generation (RAG) system that all
    OPENAI_API_KEY=your_openai_api_key_here
 5. **Launch the Jupyter Notebook:**
    ```bash
-   jupyter notebook test.ipynb
+   jupyter notebook main.ipynb
